@@ -18,3 +18,43 @@ Time: 12:47
 Phone Number: +15089813950
 Message: message: hello fuck you
 --------------------
+Date: 24/3/2025
+Time: 13:41
+Phone Number: +15089813950
+Message: message: hello fuck you
+--------------------
+Date: 24/3/2025
+Time: 13:41
+Group ID: AB123CDEFGHijklmn
+Message: Hey All!
+--------------------
+Date: 24/3/2025
+Time: 13:47
+Phone Number: +15086036035
+Message: message: hello this is a test mesasge
+--------------------
+Date: 24/3/2025
+Time: 13:47
+Phone Number: +15086036035
+Message: message: hello this is a test mesasge
+--------------------
+Date: 24/3/2025
+Time: 13:48
+Phone Number: +15089813950
+Message: message: hello this is a test mesasge
+--------------------
+Date: 24/3/2025
+Time: 13:49
+Phone Number: +15086036035
+Message: message: hello this is a test mesasge
+--------------------
+Date: 24/3/2025
+Time: 13:54
+Phone Number: +15089813950
+Message: Hello! This is a test message sent via WhatsApp automation.
+--------------------
+Date: 24/3/2025
+Time: 13:55
+Phone Number: +15086036035
+Message: Hello! This is a test message sent via WhatsApp automation.
+--------------------
