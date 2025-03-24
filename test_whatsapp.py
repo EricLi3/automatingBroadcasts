@@ -1,6 +1,7 @@
-import pywhatkit
+import pywhatkit as pk
 import pyautogui
 import time
+import os
 
 def load_numbers(file_path):
     try:
@@ -27,13 +28,18 @@ if not phone_numbers:
 else:
     print(f"Sending messages to {len(phone_numbers)} contacts...")
 
-    message = "https://www.healthline.com/nutrition/foods/bananas"
+    message = "This is a test message sent to you through Python Whatsapp Automation"
+    
+    
+    image_path = "images/disaster_program.jpg"
+    caption = "Disaster Program"
 
     for number in phone_numbers:
         try:
             # Send the message
             print(f"⏳ Sending to {number}...")
-            pywhatkit.sendwhatmsg_instantly(number, message)
+            pk.sendwhatmsg_instantly(number, message)
+            pk.sendwhats_image(number, image_path, "This is a cover image for the Disaster Management Program")
             
             # Wait for WhatsApp to load and press Enter
             pyautogui.press("enter")

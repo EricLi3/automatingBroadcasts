@@ -78,3 +78,57 @@ Time: 14:3
 Phone Number: +15086036035
 Message: https://www.healthline.com/nutrition/foods/bananas
 --------------------
+Date: 24/3/2025
+Time: 14:42
+Phone Number: +15089813950
+Message: This is a test message sent to you through Python Whatsap Automation
+--------------------
+Date: 24/3/2025
+Time: 14:45
+Phone Number: +15089813950
+Message: This is a test message sent to you through Python Whatsap Automation
+--------------------
+Date: 24/3/2025
+Time: 14:47
+Phone Number: +15089813950
+Message: This is a test message sent to you through Python Whatsapp Automation
+--------------------
+Date: 24/3/2025
+Time: 14:47
+Phone Number: +15089813950
+Image: images/disaster_program.jpg
+Caption: This is a cover image for the Disaster Managament Program
+--------------------
+Date: 24/3/2025
+Time: 14:49
+Phone Number: +15089813950
+Message: This is a test message sent to you through Python Whatsapp Automation
+--------------------
+Date: 24/3/2025
+Time: 14:49
+Phone Number: +15089813950
+Image: images/disaster_program.jpg
+Caption: This is a cover image for the Disaster Management Program
+--------------------
+Date: 24/3/2025
+Time: 14:50
+Phone Number: +15086036035
+Message: This is a test message sent to you through Python Whatsapp Automation
+--------------------
+Date: 24/3/2025
+Time: 14:50
+Phone Number: +15086036035
+Image: images/disaster_program.jpg
+Caption: This is a cover image for the Disaster Management Program
+--------------------
+Date: 24/3/2025
+Time: 14:52
+Phone Number: +15086036035
+Message: This is a test message sent to you through Python Whatsapp Automation
+--------------------
+Date: 24/3/2025
+Time: 14:52
+Phone Number: +15086036035
+Image: images/disaster_program.jpg
+Caption: This is a cover image for the Disaster Management Program
+--------------------
