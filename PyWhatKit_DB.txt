@@ -58,3 +58,23 @@ Time: 13:55
 Phone Number: +15086036035
 Message: Hello! This is a test message sent via WhatsApp automation.
 --------------------
+Date: 24/3/2025
+Time: 14:2
+Phone Number: +15089813950
+Message: https://www.healthline.com/nutrition/foods/bananas
+--------------------
+Date: 24/3/2025
+Time: 14:2
+Phone Number: +15086036035
+Message: https://www.healthline.com/nutrition/foods/bananas
+--------------------
+Date: 24/3/2025
+Time: 14:3
+Phone Number: +15089813950
+Message: https://www.healthline.com/nutrition/foods/bananas
+--------------------
+Date: 24/3/2025
+Time: 14:3
+Phone Number: +15086036035
+Message: https://www.healthline.com/nutrition/foods/bananas
+--------------------

@@ -27,7 +27,7 @@ if not phone_numbers:
 else:
     print(f"Sending messages to {len(phone_numbers)} contacts...")
 
-    message = "Hello! This is a test message sent via WhatsApp automation."
+    message = "https://www.healthline.com/nutrition/foods/bananas"
 
     for number in phone_numbers:
         try:
@@ -36,7 +36,6 @@ else:
             pywhatkit.sendwhatmsg_instantly(number, message)
             
             # Wait for WhatsApp to load and press Enter
-            time.sleep(3)
             pyautogui.press("enter")
             
             print(f"✅ Message sent to {number}!")
