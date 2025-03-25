@@ -9,11 +9,8 @@ To gather all dependencies, run "❯ pip freeze > requirements.txt"
 "install -r requirements.txt"
 
 ## Running the Program
-
-"python3 test_whatsapp.py"
-
-We'll be working on making this python script into an executable, which you can make into an automated proccess.
+Navigate to the 'dist' directory via 'cd dist' and type "./gui" to run the exec. You should see a python window appear prompting you with instructions to send broadcast messages.
 
 ## Adding Recipients to Broadcast
 
-Modify the phone_numbers.txt file, adding new numbers on new lines.
+Modify the phone_numbers.txt file by adding new numbers on new lines.
