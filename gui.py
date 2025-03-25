@@ -138,14 +138,14 @@ btn_browse_numbers.pack(side=tk.LEFT)
 
 
 # Message Entry
-tk.Label(root, text="Enter Message (Optional if no image):", bg="#f0f0f0", font=("Helvetica", 12)).pack(pady=5)
+tk.Label(root, text="Enter Message (Required if no image):", bg="#f0f0f0", font=("Helvetica", 12)).pack(pady=5)
 txt_message = tk.Text(root, width=70, height=5, font=("Helvetica", 11))
 txt_message.pack(padx=10, pady=5)
 txt_message.bind("<KeyRelease>", on_message_input_change)
 
 
 # Select Image
-tk.Label(root, text="Select Image (Optional if no message):", bg="#f0f0f0", font=("Helvetica", 12)).pack(pady=5)
+tk.Label(root, text="Select Image (Required if no message):", bg="#f0f0f0", font=("Helvetica", 12)).pack(pady=5)
 frame_image = tk.Frame(root)
 frame_image.pack(padx=10, pady=5)
 
