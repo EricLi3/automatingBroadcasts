@@ -90,7 +90,7 @@ def select_image_file():
         entry_image.insert(0, file_path)
         check_send_button()
 
-# Function to check if conditions are met for enabling the send button
+# Check if conditions are met for enabling the send button
 def check_send_button():
     numbers_file = entry_numbers.get()
     message = txt_message.get("1.0", tk.END).strip()
@@ -99,12 +99,12 @@ def check_send_button():
  # If numbers file is selected and either message or image is provided, enable the send button
     if numbers_file and (message or image_path):
         btn_send.config(state=tk.NORMAL, bg="green", fg="white")
-        btn_send.after(100, jump_button)  # Start jumping effect
+        btn_send.after(100, change_color_button)  # Define a delay for the button color change
     else:
         btn_send.config(state=tk.DISABLED, bg="gray", fg="white")
      
 # Function to make the button "turn green" when enabled
-def jump_button():
+def change_color_button():
    btn_send.config(fg="green")
 
 # Function to handle message input changes and update the button
@@ -117,9 +117,15 @@ root.title("WhatsApp Automation with Messages or Images")
 root.geometry("600x500")
 root.configure(bg="#f0f0f0")
 
+# Define a Title
+tk.Label(root, text="WhatsApp Automated Broadcast Messages + Images", bg="#f0f0f0", font=("Helvetica", 16, "bold")).pack(pady=10)
+
+# logo = tk.PhotoImage(file="wpi_crest.png")
+# w1 = tk.Label(root, image=logo).pack(side="right")
+
+
 # Select Numbers File
-tk.Label(root, text="Select Numbers File (.txt) :", bg="#f0f0f0", font=("Helvetica", 12)).pack(pady=5)
-tk.Label(root, text="*", fg="red", font=("Helvetica", 12)).pack(pady=5)
+tk.Label(root, text="Select Numbers File (.txt) * :", bg="#f0f0f0", fg = "red", font=("Helvetica", 12)).pack(pady=5)
 
 frame_numbers = tk.Frame(root)
 frame_numbers.pack(padx=10, pady=5)

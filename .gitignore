@@ -1,0 +1,6 @@
+build
+test_whatsapp.spec
+.DS_Store
+__pycache__
+PyWhatKit_DB.txt
+dist/test_whatsapp
